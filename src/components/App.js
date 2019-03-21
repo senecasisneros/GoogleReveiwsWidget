@@ -3,12 +3,13 @@ import BusinessDetails from "./BusinessDetails";
 import Map from "./Map";
 import Review from "./Review";
 import ReviewList from "./ReviewList";
+import SearchBar from "./SearchBar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        App Component
+        <SearchBar />
         <BusinessDetails />
         <Map />
         <Review />
@@ -19,3 +20,5 @@ class App extends Component {
 }
 
 export default App;
+
+
